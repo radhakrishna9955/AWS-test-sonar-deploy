@@ -12,9 +12,9 @@ class CsecontrollerTest {
 	Csecontroller c;
    // Csecontroller c = new Csecontroller();
 
-//    @Test
-//    void csetest() {
-//        int result = c.addcse(2, 3);
-//        assertEquals(5, result); 
-//    }
+    @Test
+    void csetest() {
+        int result = c.addcse(2, 3);
+        assertEquals(6, result); 
+    }
 }
